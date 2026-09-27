@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Escola para Todos: campanha educacional sobre a importância da escola, da educação inclusiva e da acessibilidade no Brasil.">
+  <title>Escola para Todos — Educação, inclusão e oportunidades</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Link de salto: permite que usuários de teclado/leitores de tela pulem o menu e cheguem direto ao conteúdo principal -->
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+  <!-- Cabeçalho do site: identidade do projeto + navegação principal -->
+  <header class="cabecalho">
+    <div class="container cabecalho-conteudo">
+      <div class="marca">
+        <p class="logo" aria-label="Escola para Todos">📚 Escola para Todos</p>
+        <p class="slogan">Educação, inclusão e oportunidades.</p>
+      </div>
+      <nav class="menu" aria-label="Navegação principal">
+        <ul class="menu-lista">
+          <li><a href="#importancia">Importância da escola</a></li>
+          <li><a href="#desafios">Desafios</a></li>
+          <li><a href="#acessibilidade">Acessibilidade</a></li>
+          <li><a href="#contribuir">Como contribuir</a></li>
+          <li><a href="#participar">Participe</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal da página: todo o conteúdo central fica dentro de main -->
+  <main id="conteudo-principal">
+
+    <!-- Seção inicial (hero): título principal h1, único da página -->
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="container hero-conteudo">
+        <div class="hero-texto">
+          <h1 id="titulo-principal">A escola é onde o futuro começa para todos</h1>
+          <p>
+            A educação é um direito garantido pela Constituição brasileira a todas as pessoas.
+            Esta página é uma campanha de conscientização sobre a importância da escola,
+            da inclusão e da acessibilidade — porque uma boa escola transforma vidas,
+            comunidades e o país inteiro.
+          </p>
+          <a class="botao" href="#importancia">Conheça o conteúdo da campanha</a>
+        </div>
+        <figure class="hero-figura">
+          <img src="img/hero-estudantes.jpg" alt="Estudantes e professor reunidos na sala de aula de uma escola, conversando e sorrindo" width="800" height="536">
+          <figcaption>Aprender em comunidade: a escola é um espaço de encontro e convivência.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Seção 1: importância da escola (com lista de informações) -->
+    <section id="importancia" class="secao" aria-labelledby="titulo-importancia">
+      <div class="container">
+        <h2 id="titulo-importancia">Por que a escola é importante?</h2>
+        <p>
+          Muito além de ensinar conteúdos, a escola é um dos principais espaços de formação
+          humana e cidadã. É onde crianças, jovens e adultos desenvolvem conhecimentos,
+          habilidades e valores que acompanham a vida inteira.
+        </p>
+        <ul class="lista-destaque">
+          <li><strong>Aprendizagem:</strong> acesso organizado ao conhecimento, com mediação de profissionais da educação.</li>
+          <li><strong>Convivência:</strong> aprender a viver em grupo, respeitar diferenças e construir amizades.</li>
+          <li><strong>Formação cidadã:</strong> desenvolvimento do pensamento crítico e da participação na sociedade.</li>
+          <li><strong>Acesso ao conhecimento:</strong> contato com ciência, cultura, artes, esportes e tecnologia.</li>
+          <li><strong>Oportunidades:</strong> a escolarização amplia as possibilidades de trabalho, renda e vida plena.</li>
+        </ul>
+
+        <figure class="figura-secao">
+          <img src="img/criancas-escola-publica.jpg" alt="Crianças estudando sentadas às carteiras em uma escola pública, acompanhando a aula" width="1023" height="661">
+          <figcaption>Crianças em sala de aula: cada dia de estudo é um passo na construção do futuro.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Seção 2: desafios das escolas (com articles em formato de cards) -->
+    <section id="desafios" class="secao secao-clara" aria-labelledby="titulo-desafios">
+      <div class="container">
+        <h2 id="titulo-desafios">Desafios das escolas no Brasil</h2>
+        <p>
+          Falar da importância da escola também exige reconhecer, de forma neutra e informativa,
+          os desafios que muitas escolas e comunidades enfrentam. Conhecer esses desafios é o
+          primeiro passo para que toda a sociedade possa contribuir com soluções.
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>Infraestrutura escolar</h3>
+            <p>
+              Muitas escolas ainda precisam de melhorias em salas de aula, bibliotecas,
+              quadras, banheiros acessíveis e espaços adequados para o aprendizado.
+              Um ambiente escolar adequado influencia diretamente o bem-estar e o rendimento dos estudantes.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Acesso à tecnologia</h3>
+            <p>
+              Nem todos os estudantes têm acesso igual a computadores, internet e recursos
+              digitais. Reduzir essa desigualdade é essencial para que a tecnologia seja
+              ferramenta de aprendizado, e não de exclusão.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Inclusão e permanência</h3>
+            <p>
+              Garantir que todos os estudantes — incluindo pessoas com deficiência — entrem
+              na escola e permaneçam estudando até concluir sua trajetória é um compromisso
+              coletivo. Evasão e exclusão escolar são desafios que exigem atenção constante.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 3: acessibilidade e inclusão (com aside complementar) -->
+    <section id="acessibilidade" class="secao" aria-labelledby="titulo-acessibilidade">
+      <div class="container">
+        <h2 id="titulo-acessibilidade">Uma escola acessível é para todos</h2>
+        <p>
+          Inclusão significa garantir que cada pessoa possa aprender com dignidade e autonomia.
+          Uma escola verdadeiramente inclusiva cuida de diferentes dimensões da acessibilidade:
+        </p>
+        <ul class="lista-destaque">
+          <li><strong>Acessibilidade física:</strong> rampas, elevadores, banheiros adaptados e mobiliário adequado.</li>
+          <li><strong>Acessibilidade na comunicação:</strong> Língua Brasileira de Sinais (Libras), leitura de lábios e comunicação clara.</li>
+          <li><strong>Materiais acessíveis:</strong> livros em braille, materiais em áudio, fontes ampliadas e recursos digitais acessíveis.</li>
+          <li><strong>Tecnologias assistivas:</strong> leitores de tela, ampliadores de tela, teclados adaptados e outros recursos que apoiam a autonomia.</li>
+        </ul>
+        <p>
+          E esse compromisso se estende ao mundo digital: sites e plataformas educacionais
+          também precisam ser acessíveis. Esta própria página foi desenvolvida seguindo
+          boas práticas de acessibilidade web, como HTML semântico, navegação por teclado,
+          contraste adequado e textos alternativos nas imagens.
+        </p>
+
+        <figure class="figura-secao">
+          <img src="img/estudantes-sala.jpg" alt="Estudantes sentados às carteiras em uma sala de aula, atentos durante a aula" width="1024" height="576">
+          <figcaption>Todos merecem aprender: acessibilidade é condição para a participação plena.</figcaption>
+        </figure>
+
+        <!-- Aside: conteúdo complementar relacionado à seção -->
+        <aside class="caixa-destaque" aria-labelledby="titulo-aside">
+          <h3 id="titulo-aside">Você sabia?</h3>
+          <p>
+            A Convenção Internacional sobre os Direitos das Pessoas com Deficiência,
+            incorporada à legislação brasileira, estabelece a educação inclusiva como direito.
+            Acessibilidade não é favor: é compromisso legal e humano.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Seção 4: como contribuir -->
+    <section id="contribuir" class="secao secao-clara" aria-labelledby="titulo-contribuir">
+      <div class="container">
+        <h2 id="titulo-contribuir">Como podemos contribuir?</h2>
+        <p>
+          Construir uma educação mais inclusiva é tarefa de todos nós. Pequenas atitudes
+          do dia a dia fazem diferença:
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>Valorize a escola</h3>
+            <p>
+              Estudantes, famílias e comunidade podem participar da vida escolar,
+              acompanhando atividades, reuniões e projetos da escola do bairro.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Pratique a inclusão</h3>
+            <p>
+              Respeite as diferenças, combata o preconceito e inclua colegas com deficiência
+              nas atividades, brincadeiras e trabalhos em grupo.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Divulgue a acessibilidade</h3>
+            <p>
+              Ao criar conteúdo digital, use boas práticas de acessibilidade: textos claros,
+              descrição de imagens e páginas navegáveis por todos.
+            </p>
+          </article>
+        </div>
+
+        <figure class="figura-secao">
+          <img src="img/estudante-lendo.jpg" alt="Estudante concentrado lendo um livro na sala de aula" width="1024" height="576">
+          <figcaption>O hábito da leitura é uma das portas de entrada para as oportunidades.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Seção 5: formulário acessível de participação -->
+    <section id="participar" class="secao" aria-labelledby="titulo-participar">
+      <div class="container">
+        <h2 id="titulo-participar">Participe: envie sua contribuição</h2>
+        <p>
+          Quer compartilhar uma ideia, experiência ou sugestão sobre educação inclusiva?
+          Preencha o formulário abaixo. Todos os campos marcados com
+          <span aria-hidden="true">*</span><span class="visually-hidden">asterisco</span> são obrigatórios.
+        </p>
+
+        <form class="formulario" action="#" method="post">
+          <fieldset>
+            <legend>Dados para contato</legend>
+
+            <div class="campo">
+              <label for="nome">Nome completo <span aria-hidden="true">*</span></label>
+              <input type="text" id="nome" name="nome" required autocomplete="name">
+            </div>
+
+            <div class="campo">
+              <label for="email">E-mail <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Sua contribuição</legend>
+
+            <div class="campo">
+              <label for="perfil">Qual é o seu perfil? <span aria-hidden="true">*</span></label>
+              <select id="perfil" name="perfil" required>
+                <option value="">Selecione uma opção</option>
+                <option value="estudante">Estudante</option>
+                <option value="professor">Professor(a)</option>
+                <option value="responsavel">Responsável por estudante</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="mensagem">Mensagem ou opinião <span aria-hidden="true">*</span></label>
+              <textarea id="mensagem" name="mensagem" rows="5" required
+                aria-describedby="dica-mensagem"></textarea>
+              <p id="dica-mensagem" class="dica">Conte uma experiência, sugestão ou reflexão sobre educação e inclusão.</p>
+            </div>
+
+            <button type="submit" class="botao">Enviar contribuição</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé do site -->
+  <footer class="rodape">
+    <div class="container">
+      <p><strong>Escola para Todos</strong> — Educação, inclusão e oportunidades.</p>
+      <p>
+        Página desenvolvida como atividade acadêmica de Acessibilidade Web e HTML Semântico.
+</p>
+      <nav aria-label="Navegação do rodapé">
+        <ul class="menu-lista">
+          <li><a href="#importancia">Importância da escola</a></li>
+          <li><a href="#desafios">Desafios</a></li>
+          <li><a href="#acessibilidade">Acessibilidade</a></li>
+          <li><a href="#participar">Participe</a></li>
+        </ul>
+      </nav>
+      <p class="creditos">
+        Fotografias: World Bank Photo Collection, disponíveis no Flickr sob licença Creative Commons.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
